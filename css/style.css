@@ -1,0 +1,157 @@
+html , body {
+	margin: 0;
+	height: 100%;
+	font-family: sans-serif, serif;
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+pre {
+	margin: 0;
+	white-space: pre-line;
+}
+
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	font-weight: normal;
+}
+
+input[type="color"] {
+	padding: 0;
+	margin-top: -4px;
+	border: none;
+	background: transparent;
+	width: 60px;
+	height: 35px;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px 20px 0;
+}
+
+.box {
+	margin-top: 20px;
+}
+
+.box:last-child {
+	margin-bottom: 40px;
+}
+
+.sub-title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#gradMe {
+	font-size: 50px;
+}
+
+.moto {
+	font-weight: normal;
+	font-size: 20px;
+	color: #AAA;
+}
+
+.positives {
+	padding: 20px;
+	background: #ffa550;
+	background: linear-gradient(45deg ,#ffa500,#FF00FF);
+	border: 1px solid #EEE;
+	border-radius: 7px;
+	color: white;
+}
+
+.positives li {
+	padding: 5px 0;
+}
+
+.wwh {
+	padding: 10px 0;
+}
+
+.code {
+	padding: 20px;
+	font-size: 16px;
+	background: #EEE;
+	border-radius: 7px;
+	border: 1px solid #E0E0E0;
+	overflow: auto;
+}
+
+.source {
+	font-size: 18px;
+}
+
+.separator {
+	position: relative;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.separator span {
+	position: relative;
+	padding: 10px;
+	background: white;
+	z-index: 10;
+}
+
+.separator:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    margin-top: 7px;
+    background: #E0E0E0;
+    position: absolute;
+    left: 0;
+}
+
+.live {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.colorPickers {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.colorPickers label {
+	vertical-align: top;
+}
+
+.generate_btn {
+	vertical-align: top;
+	background: #E0E0E0;
+	border: 1px solid #BDBDBD;
+	padding: 5px 7px;
+}
+
+#text {
+	padding: 5px 7px;
+}
+
+#output_text {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .wrapper {
+    	font-size: 1em;
+        padding-top:20px;
+    }
+    #gradMe {
+    	font-size: 30px;
+    }
+}
